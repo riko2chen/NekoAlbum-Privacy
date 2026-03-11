@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>貓與相簿支援頁面</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #5f6b7a;
+      --line: #d9e0ea;
+      --accent: #2f8cff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1724;
+        --card: #161f2f;
+        --text: #eef3fb;
+        --muted: #aab6c7;
+        --line: #283449;
+        --accent: #5aa6ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg), color-mix(in srgb, var(--bg) 82%, var(--accent) 18%));
+      color: var(--text);
+      line-height: 1.75;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    h1 { font-size: 32px; line-height: 1.2; }
+    h2 { font-size: 20px; margin-top: 28px; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>貓與相簿支援頁面</h1>
+      <p class="muted">最後更新：2026 年 3 月 11 日</p>
+
+      <p>
+        貓與相簿是一款在裝置本地完成照片整理、清理與壓縮的應用，幫助你更高效地篩選照片、壓縮圖片並釋放儲存空間，
+        不會將你的照片上傳到雲端進行分析處理。
+      </p>
+
+      <h2>1. 聯絡方式</h2>
+      <p>
+        如果你遇到問題、需要協助，或希望向我們提供建議，請聯絡：
+        <a href="mailto:symeonchen@gmail.com">symeonchen@gmail.com</a>
+      </p>
+
+      <h2>2. 支援說明</h2>
+      <ul>
+        <li>如果購買權益沒有立即生效，請先嘗試在應用內點擊 <strong>恢復購買</strong>。</li>
+        <li>如果照片存取範圍受限，請前往系統設定並授予 <strong>所有照片</strong> 權限，以獲得完整清理能力。</li>
+        <li>如果法律文件頁面無法開啟，請檢查網路連線後重試。</li>
+      </ul>
+
+      <h2>3. 法律文件</h2>
+      <ul>
+        <li><a href="privacy-policy-en.html">Privacy Policy</a></li>
+        <li><a href="terms-of-use-en.html">Terms of Use</a></li>
+      </ul>
+
+      <h2>4. 回饋管道</h2>
+      <p>
+        你也可以透過應用內「問題回饋與意見建議」頁面查看作者的社群主頁，並與我們取得聯繫。
+      </p>
+
+      <h2>5. 版權資訊</h2>
+      <p>© 2026 Sheng Chen。保留所有權利。</p>
+    </section>
+  </main>
+</body>
+</html>

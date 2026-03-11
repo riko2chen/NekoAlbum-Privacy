@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neko Album サポート</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #5f6b7a;
+      --line: #d9e0ea;
+      --accent: #2f8cff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1724;
+        --card: #161f2f;
+        --text: #eef3fb;
+        --muted: #aab6c7;
+        --line: #283449;
+        --accent: #5aa6ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg), color-mix(in srgb, var(--bg) 82%, var(--accent) 18%));
+      color: var(--text);
+      line-height: 1.75;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    h1 { font-size: 32px; line-height: 1.2; }
+    h2 { font-size: 20px; margin-top: 28px; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Neko Album サポート</h1>
+      <p class="muted">最終更新日: 2026年3月11日</p>
+
+      <p>
+        Neko Album は、写真の整理・削除・圧縮をデバイス上で完結できるアプリです。
+        写真をクラウドへアップロードせずに、ライブラリの整理と空き容量の確保をより簡単に行えます。
+      </p>
+
+      <h2>1. お問い合わせ</h2>
+      <p>
+        不具合の報告、ご質問、ご意見がある場合は、以下までご連絡ください。
+        <a href="mailto:symeonchen@gmail.com">symeonchen@gmail.com</a>
+      </p>
+
+      <h2>2. サポートメモ</h2>
+      <ul>
+        <li>購入特典がすぐに反映されない場合は、アプリ内の <strong>Restore Purchases</strong> をお試しください。</li>
+        <li>写真へのアクセスが制限されている場合は、システム設定で <strong>すべての写真</strong> へのアクセスを許可してください。</li>
+        <li>法的文書ページが開けない場合は、ネットワーク接続を確認してから再度お試しください。</li>
+      </ul>
+
+      <h2>3. 法的文書</h2>
+      <ul>
+        <li><a href="privacy-policy-en.html">Privacy Policy</a></li>
+        <li><a href="terms-of-use-en.html">Terms of Use</a></li>
+      </ul>
+
+      <h2>4. フィードバック</h2>
+      <p>
+        アプリ内の「フィードバック」ページから、作者のSNSリンクを確認して連絡することもできます。
+      </p>
+
+      <h2>5. 著作権</h2>
+      <p>© 2026 Sheng Chen. All rights reserved.</p>
+    </section>
+  </main>
+</body>
+</html>
