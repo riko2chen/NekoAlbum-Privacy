@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neko Album Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #5f6b7a;
+      --line: #d9e0ea;
+      --accent: #2f8cff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1724;
+        --card: #161f2f;
+        --text: #eef3fb;
+        --muted: #aab6c7;
+        --line: #283449;
+        --accent: #5aa6ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg), color-mix(in srgb, var(--bg) 82%, var(--accent) 18%));
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    h1 { font-size: 32px; line-height: 1.2; }
+    h2 { font-size: 20px; margin-top: 28px; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Neko Album Support</h1>
+      <p class="muted">Last updated: March 11, 2026</p>
+
+      <p>
+        Neko Album is an on-device photo cleanup and compression app designed to help you sort photos more efficiently,
+        compress images locally, and free up storage space without uploading your photo library for cloud processing.
+      </p>
+
+      <h2>1. Contact</h2>
+      <p>
+        If you need help, want to report a problem, or would like to share feedback, please contact:
+        <a href="mailto:symeonchen@gmail.com">symeonchen@gmail.com</a>
+      </p>
+
+      <h2>2. Support Notes</h2>
+      <ul>
+        <li>If a purchase does not appear immediately, please try the <strong>Restore Purchases</strong> option inside the app.</li>
+        <li>If photo access is limited, go to system settings and allow access to <strong>All Photos</strong> for the full cleanup experience.</li>
+        <li>If a legal page does not load, please check your network connection and try again.</li>
+      </ul>
+
+      <h2>3. Legal Documents</h2>
+      <ul>
+        <li><a href="privacy-policy-en.html">Privacy Policy</a></li>
+        <li><a href="terms-of-use-en.html">Terms of Use</a></li>
+      </ul>
+
+      <h2>4. Feedback Channels</h2>
+      <p>
+        You can also follow or contact the author through social channels linked inside the app's feedback page.
+      </p>
+
+      <h2>5. Copyright</h2>
+      <p>© 2026 Sheng Chen. All rights reserved.</p>
+    </section>
+  </main>
+</body>
+</html>
